@@ -5,11 +5,18 @@
             "image": "x-men-97-wolverine.jpg",
             "dis": "Wolverine (real name James 'Logan' Howlvett) is one of the main characters in the Marvel Studios Animation series X-Men '97, a revival/sequel of the 1992 X-Men animated series. He is a mutant member of the X-Men who previously had his memories erased, as well as having his skeleton fused with Adamantium which gave him retractable Adamantium claws.",
             "disPer": "Logan is a loner and someone who does things his own way, even if it means going off on his own. He can be headstrong, hardheaded, and even violent at times, coming off as a jerk and brute to anyone who sees him act this way, his friends included. \n\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Despite his lone wolf persona and rude attitude, he is honorable as he refuses to hurt ordinary civilians, even if they express hate towards him or mutants in general. He also has a soft side as well, showing care for other people, especially his teammates. He is been shown to have romantic feelings for Jean Grey, showing affection and kindness towards her even after her and Cyclops were married, however, he respects her choice, and even sometimes rejects her advances due to believing she still loves Scott, thus wanting to prevent her from suffering loss.",
-            "disPhs": "Logan is a short, bulky man with black and blue hair that sticks upwards on both sides of his head. He also has mutton chop sideburns. His X-Men uniform has a helmet with visors that stick out past his head. The rest of his costume also consists of mostly yellow, but he does have some black and blue on his boots as well as his shoulder pads, giving him more of an animalistic look."
+            "disPhs": "Logan is a short, bulky man with black and blue hair that sticks upwards on both sides of his head. He also has mutton chop sideburns. His X-Men uniform has a helmet with visors that stick out past his head. The rest of his costume also consists of mostly yellow, but he does have some black and blue on his boots as well as his shoulder pads, giving him more of an animalistic look.",
+            "pab": [
+                "Superhuman Senses: Wolverine is known to possess extremely acute and heightened senses, allowing him to hear, see, smell, taste, and even feel things that no normal human being can.",
+                "Accelerated Healing Factor: Wolverine possesses a 'healing factor' that allows him to completely regenerate lost and damaged tissue instantaneously. He is also immortal due to such a power.",
+                "Immortality: Wolverine's healing factor has also kept him in the physical prime of a normal man for decades, and he will never age as a result.",
+                "Retractable Bone Claws: Wolverine possesses a pair of retractable razor-sharp claws that he can deploy between his knuckles.",
+                "Adamantium Skeleton: Upon entering the Weapon X program, Wolverine's entire skeletal structure was upgraded with Adamantium; which is a virtually indestructible alloy. Wolverine is capable of taking even more damage when he is on the offensive because of his skeleton."
+            ]
         },
         {
             "name": "Storm",
-            "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2024/04/26/x-men-97-wolverine.jpeg"
+            "image": ""
         }
     ]
 }

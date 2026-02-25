@@ -10,11 +10,11 @@ export default function PanelButton({ setOpenPanel, index, name, classN }: Panel
         <button
           type="button"
           onClick={() => setOpenPanel(index)}
-          className={`${classN} cursor-pointer text-[35px] flex flex-col flex-shrink-0 px-4 py-6 duration-500
+          className={`${classN} cursor-pointer text-[25px] flex flex-col flex-shrink-0 px-4 py-6 duration-500
                     hover:pt-[15%]`}
         >
           {index}
-          <span className="-rotate-90 mt-15 -mx-10">{name}</span>
+          <span className="rotate-90 mt-15 -mx-10">{name}</span>
         </button>
     );
 }

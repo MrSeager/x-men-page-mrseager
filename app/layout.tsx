@@ -3,10 +3,18 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 //Fonts
 import { Bangers } from "next/font/google";
+import { Comic_Neue } from "next/font/google";
 
 const bangers = Bangers({
   weight: "400",
   subsets: ["latin"],
+  variable: "--font-bangers",
+});
+
+const comic = Comic_Neue({ 
+  weight: ["400", "700"], 
+  subsets: ["latin"], 
+  variable: "--font-comic",
 });
 
 const geistSans = Geist({
@@ -32,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={bangers.className}
+        className={`${bangers.variable} ${comic.variable}`}
       >
         {children}
       </body>
