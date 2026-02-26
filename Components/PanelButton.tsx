@@ -10,7 +10,7 @@ export default function PanelButton({ setOpenPanel, index, name, classN }: Panel
         <button
           type="button"
           onClick={() => setOpenPanel(index)}
-          className={`${classN} cursor-pointer text-[25px] flex flex-col flex-shrink-0 px-4 py-6 duration-500
+          className={`${classN} text-white text-shadow-[3px_3px_0px_#000] text-shadow-black cursor-pointer text-[25px] flex flex-col flex-shrink-0 px-4 py-6 duration-500
                     hover:pt-[15%]`}
         >
           {index}

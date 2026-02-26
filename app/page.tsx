@@ -15,41 +15,62 @@ export default function Home() {
   return (
     <div className="bg-white flex min-h-screen items-center justify-center font-sans">
       <main className="font-bangers flex h-screen w-full max-w-[120rem] bg-black">
-        {/* Panel 1 Button */}
+        {/* Panel 1 */}
         <PanelButton 
           setOpenPanel={setOpenPanel} 
           index={1} 
           name={data.Characters[0].name} 
-          classN='bg-[#FCE356]'
+          classN='bg-[#eccb00]'
         />
-
-        {/* Panel 1 Content */}
         <CharacterPanel 
           openPanel={openPanel}
-          classN='bg-[#FCE356]'
+          classN='bg-[#eccb00]'
+          classP="text-shadow-[1px_1px_0px_#000] text-shadow-white text-black"
           order={1}
           data={data.Characters[0]}
         />
-
-        {/* Panel 2 Button */}
+        {/* Panel 2 */}
         <PanelButton 
           setOpenPanel={setOpenPanel} 
           index={2} 
           name={data.Characters[1].name} 
-          classN='bg-[#FF1955]'
+          classN='bg-[#084772]'
         />
-
-        {/* Panel 2 Content */}
-        <div
-          className={`
-            ${openPanel === 2 ? "w-full" : "w-0"}
-            bg-[#FF1955]
-            overflow-hidden
-            transition-all duration-500
-          `}
-        >
-          {/* content goes here */}
-        </div>
+        <CharacterPanel 
+          openPanel={openPanel}
+          classN='bg-[#084772]'
+          classP="text-shadow-[1px_1px_0px_#000] text-shadow-black text-white"
+          order={2}
+          data={data.Characters[1]}
+        />
+        {/* Panel 3 */}
+        <PanelButton 
+          setOpenPanel={setOpenPanel} 
+          index={3} 
+          name={data.Characters[2].name} 
+          classN='bg-[#1d4c15]'
+        />
+        <CharacterPanel 
+          openPanel={openPanel}
+          classN='bg-[#1d4c15]'
+          classP="text-shadow-[1px_1px_0px_#000] text-shadow-black text-white"
+          order={3}
+          data={data.Characters[2]}
+        />
+        {/* Panel 4 */}
+        <PanelButton 
+          setOpenPanel={setOpenPanel} 
+          index={4} 
+          name={data.Characters[3].name} 
+          classN='bg-[#ae682d]'
+        />
+        <CharacterPanel 
+          openPanel={openPanel}
+          classN='bg-[#ae682d]'
+          classP="text-shadow-[1px_1px_0px_#000] text-shadow-black text-white"
+          order={4}
+          data={data.Characters[3]}
+        />
       </main>
     </div>
   );
