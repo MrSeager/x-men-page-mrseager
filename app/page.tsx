@@ -13,10 +13,11 @@ export default function Home() {
   const data = charactersData as dataProps;
 
   return (
-    <div className="bg-white flex min-h-screen items-center justify-center font-sans">
-      <main className="font-bangers flex h-screen w-full max-w-[120rem] bg-black">
+    <div className="select-none bg-white flex min-h-screen items-center justify-center font-sans">
+      <main className="font-bangers flex flex-col lg:flex-row h-screen w-full max-w-[120rem] bg-black">
         {/* Panel 1 */}
         <PanelButton 
+          openPanel={openPanel}
           setOpenPanel={setOpenPanel} 
           index={1} 
           name={data.Characters[0].name} 
@@ -31,6 +32,7 @@ export default function Home() {
         />
         {/* Panel 2 */}
         <PanelButton 
+          openPanel={openPanel}
           setOpenPanel={setOpenPanel} 
           index={2} 
           name={data.Characters[1].name} 
@@ -45,6 +47,7 @@ export default function Home() {
         />
         {/* Panel 3 */}
         <PanelButton 
+          openPanel={openPanel}
           setOpenPanel={setOpenPanel} 
           index={3} 
           name={data.Characters[2].name} 
@@ -59,6 +62,7 @@ export default function Home() {
         />
         {/* Panel 4 */}
         <PanelButton 
+          openPanel={openPanel}
           setOpenPanel={setOpenPanel} 
           index={4} 
           name={data.Characters[3].name} 
