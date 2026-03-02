@@ -40,3 +40,7 @@ body {
   scrollbar-width: thin !important;
   scrollbar-color: black transparent !important;
 }
+
+main::-webkit-scrollbar {
+  display: none !important;
+}

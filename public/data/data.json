@@ -3,8 +3,8 @@
         {
             "name": "Wolverine",
             "image": "x-men-97-wolverine.jpg",
-            "dis": "Wolverine (real name James 'Logan' Howlvett) is one of the main characters in the Marvel Studios Animation series X-Men '97, a revival/sequel of the 1992 X-Men animated series. He is a mutant member of the X-Men who previously had his memories erased, as well as having his skeleton fused with Adamantium which gave him retractable Adamantium claws.",
-            "disPer": "Logan is a loner and someone who does things his own way, even if it means going off on his own. He can be headstrong, hardheaded, and even violent at times, coming off as a jerk and brute to anyone who sees him act this way, his friends included. \n\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Despite his lone wolf persona and rude attitude, he is honorable as he refuses to hurt ordinary civilians, even if they express hate towards him or mutants in general. He also has a soft side as well, showing care for other people, especially his teammates. He is been shown to have romantic feelings for Jean Grey, showing affection and kindness towards her even after her and Cyclops were married, however, he respects her choice, and even sometimes rejects her advances due to believing she still loves Scott, thus wanting to prevent her from suffering loss.",
+            "dis": "Wolverine (real name James 'Logan' Howlett) is a superhero from Marvel Comics. A mutant with a healing factor and imbued with unbreakable Adamantium claws, Wolverine is the most notably a member of the X-Men.",
+            "disPer": "Wolverine is frequently depicted as a gruff loner, often taking leave from the X-Men to deal with personal issues or problems. He is often irreverent and rebellious towards authority figures, though he is a reliable ally and capable leader, and has occasionally displayed a wry, sarcastic sense of humor. \n\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0When in combat, he tends to lash out with the intensity and aggression of an enraged animal and is even more resistant to psionic attack. Despite his apparent ease at taking lives, he mournfully regrets and does not enjoy killing or giving in to his berserker rages. Logan adheres to a firm code of personal honor and morality.",
             "pab": [
                 "Superhuman Senses: Wolverine is known to possess extremely acute and heightened senses, allowing him to hear, see, smell, taste, and even feel things that no normal human being can.",
                 "Accelerated Healing Factor: Wolverine possesses a 'healing factor' that allows him to completely regenerate lost and damaged tissue instantaneously. He is also immortal due to such a power.",
@@ -41,6 +41,44 @@
             "pab": [
                 "Gambit has the ability to change objects with explosive charges of kinetic energy that his body produces from non-organic matter. He commonly does this to playing cards since he can easily store them and throw the cards. However, this means he goes through them quickly and is often buying new packs of cards. He can also do this to other objects, such as a brick, but does this less often.",
                 "He also has a extendable metal Bo-staff that he uses for fending off further attacks and is skilled in martial arts. Gambit also regularly exercises and has the skills of a master thief."
+            ]
+        },
+        {
+            "name": "Professor X",
+            "image": "professor-x-calling-the-x-men-in-x-men-97-episode-8.jpg",
+            "dis": "Charles Xavier, also known as Professor X, is a powerful telepathic mutant and leader of the X-Men.",
+            "disPer": "He is a scientific genius and a leading authority in genetics, who strives to serve the greater good by promoting peaceful coexistence and equality between humans and mutants. His pacifist and assimilationist ideology often contrasts with that of Magneto, a mutant leader with whom he has a complicated relationship. Xavier's character is deeply affected by his telepathic powers, which he uses to alleviate others' pain and protect mutants from persecution. Despite his efforts, Xavier's dream of mutant-human coexistence is often challenged by the political and ideological divide within the mutant community.",
+            "pab": [
+                "Xavier has strong telepathic abilities which allow him to read minds, project thoughts, show memories, enter the astral plane, project mental bolts, create mental shields, etc. Physically, he is just a human in a wheelchair/hoverchair, however he is an excellent tactician and strategist."
+            ]
+        },
+        {
+            "name": "Cyclops",
+            "image": "thumb-1920-1356845.jpg",
+            "dis": "Cyclops (also known as Scott Summers) is one of the main characters in the Marvel Studios Animation series X-Men '97, a revival of the 1992 X-Men animated series.",
+            "disPer": "Scott takes his position on the X-Men very seriously, which sometimes gets him into a few conflicts with Wolverine who does not always obey his orders. He tends to be stoic, a bit uptight, and believes in doing things by the book. He has an aura of authority and compassion and is very charismatic, and extremely skilled at making decisions under pressure. Additionally, he seems to view Beast as a brother-figure and seems to love Jubilee, Rogue and Storm like sisters, hinting that he regards all the X-Men as family.",
+            "pab": [
+                "Optic Energy Blasts: Cyclops can absorb solar energy for discharge and use it as concussive beams to fire from his eyes with superb accuracy. Unfortunately he is unable to control his power at will and has to wear special material to contain his beams such as his visor or glasses with ruby quartz lenses, hence his name"
+            ]
+        },
+        {
+            "name": "Jubilee",
+            "image": "9371335-6413715534-maxre.jpg",
+            "dis": "Jubilation 'Jubilee' Lee is one of the main characters in the Marvel Studios Animation series X-Men '97, which is a direct continuation of the 1992 X-Men animated series. She is a mutant with the ability to generate pyrotechnic energy blasts from her hands. As a junior member of the team, Jubilee takes it upon herself to be a mentor to Sunspot.",
+            "disPer": "While she retains her energetic and rebellious nature, the series also introduces more depth to her personality, including her insecurities and a specific sense of humor. Jubilee's character evolves from a 'mall rat' to a more nuanced individual, with her own voice and a unique perspective on her experiences as a mutant. This evolution is evident in her interactions with other characters and her role within the X-Men team.",
+            "pab": [
+                "Pyrotechnic energy plasmoids generation/manipulation: As a mutant, Jubilee has the power to generate pyrotechnic energy plasmoids from her hands. The plasmoids obey her mental control, traveling where she directs them, arranging themselves in various shapes, and exploding when she wishes. The strength of the blasts varied in degrees of power and intensity, and can range from a multitude of colorful sparkles capable of temporarily blinding a person, to a powerful detonation capable of smashing objects and destroying property, or a precision burst inside a human brain, simulating the effects of a massive stroke. Jubilee can also absorb the energy back into her own body without harm.",
+                "Lockpicking: Jubilee learnt how to pick locks from a girl at her former orphanage."
+            ]
+        },
+        {
+            "name": "Jean Grey",
+            "image": "FOYW2O3KBNPOBLRH3IH7P27GHM.jpg",
+            "dis": "Jean Elaine Grey-Summers is a one of the main characters who appears in the Marvel Studios Animation series X-Men '97, a direct continuation of the 1992 X-Men animated series. She is a mutant superheroine with powerful telepathic and telekinetic abilities.",
+            "disPer": "She is a mutant with advanced telepathic and telekinetic abilities, making her one of the most powerful mutants. Jean's character is deeply affected by her powers, which she first developed after witnessing the death of her friend Annie Richardson. Her relationship with Scott Summers, also known as Cyclops, is a significant aspect of her personalty, as they both serve as mentors to younger mutants. Jean's compassion and empathy are her defining traits, often making her the emotional core of the X-Men. Despite her strength and intelligence, Jean's personal struggles, including her transformation into the Dark Phoenix and her clone Madelyne Pryor, highlight her vulnerabilities and the challenges she faces as a mutant. ",
+            "pab": [
+                "Telepathy: As a telepath, Jean can detect and read the thoghts of others, project her own thoughts into other's minds, form psychic links with other beings, control others' minds so as to manipulate their physical functions, mentally stun opponents with bolts of pure psionic force, cast near-flawless mental illusions, and project her mind and the minds of others onto the astral plane.",
+                "Telekinesis: Jean possesses a high-level of telekinetic ability that enables her to psionically levitate and rapidly move about all manner of animate and inanimate matter. She can use her telekinetic abilities on herself or others to simulate the power of flight or levitation, stimulate molecules to increase friction, create protective force fields out of psychokinetic energy, or project her telekinetic energy as purely concussive force."
             ]
         }
     ]

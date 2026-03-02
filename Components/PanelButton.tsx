@@ -16,7 +16,7 @@ export default function PanelButton({ openPanel, setOpenPanel, index, name, clas
                     hover:pt-[15%]`}
         >
           <span className="hidden lg:block">{index}</span>
-          <span className="lg:rotate-90 lg:mt-15 lg:-mx-10">{name}</span>
+          <span className="lg:rotate-90 lg:mt-15 lg:-mx-15">{name}</span>
         </button>
     );
 }
