@@ -14,6 +14,8 @@ export interface dataProps{
 export interface CharacterPanelProps {
     openPanel: number;
     classN: string;
+    fromFade: string;
+    toFade: string;
     classP: string;
     order: number;
     data: CharactersData;

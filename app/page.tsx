@@ -15,8 +15,8 @@ export default function Home() {
 
   return (
     <div className="font-bangers select-none bg-white flex min-h-screen items-center justify-center font-sans">
-      <main className="flex flex-col snap-y snap-mandatory h-screen overflow-y-scroll scroll-smooth">
-        <div className="flex flex-col lg:flex-row h-screen w-full snap-start max-w-[120rem] bg-black">
+      <main className="flex flex-row lg:flex-col w-full max-w-[120rem] snap-x lg:snap-y snap-mandatory h-screen overflow-x-scroll lg:overflow-y-scroll scroll-smooth">
+        <div className="flex flex-col lg:flex-row h-screen w-full snap-start bg-black">
           {/* Panel 1 */}
           <PanelButton 
             openPanel={openPanel}
@@ -27,7 +27,9 @@ export default function Home() {
           />
           <CharacterPanel 
             openPanel={openPanel}
-            classN='bg-[#eccb00]'
+            classN='bg-[#eccb00]' 
+            fromFade='from-[#eccb00]' 
+            toFade='to-[#eccb00]' 
             classP="text-shadow-[1px_1px_0px_#000] text-shadow-white text-black"
             order={1}
             data={data.Characters[0]}
@@ -42,7 +44,9 @@ export default function Home() {
           />
           <CharacterPanel 
             openPanel={openPanel}
-            classN='bg-[#084772]'
+            classN='bg-[#084772]' 
+            fromFade='from-[#084772]' 
+            toFade='to-[#084772]' 
             classP="text-shadow-[1px_1px_0px_#000] text-shadow-black text-white"
             order={2}
             data={data.Characters[1]}
@@ -58,6 +62,8 @@ export default function Home() {
           <CharacterPanel 
             openPanel={openPanel}
             classN='bg-[#1d4c15]'
+            fromFade='from-[#1d4c15]' 
+            toFade='to-[#1d4c15]' 
             classP="text-shadow-[1px_1px_0px_#000] text-shadow-black text-white"
             order={3}
             data={data.Characters[2]}
@@ -73,12 +79,14 @@ export default function Home() {
           <CharacterPanel 
             openPanel={openPanel}
             classN='bg-[#ae682d]'
+            fromFade='from-[#ae682d]' 
+            toFade='to-[#ae682d]'
             classP="text-shadow-[1px_1px_0px_#000] text-shadow-black text-white"
             order={4}
             data={data.Characters[3]}
           />
         </div>
-        <div className="flex flex-col lg:flex-row h-screen w-full snap-start max-w-[120rem] bg-black">
+        <div className="flex flex-col lg:flex-row h-screen w-full snap-start bg-black">
           {/* Panel 1 */}
           <PanelButton 
             openPanel={openPanelSec}
@@ -90,6 +98,8 @@ export default function Home() {
           <CharacterPanel 
             openPanel={openPanelSec}
             classN='bg-[#d8b378]'
+            fromFade='from-[#d8b378]' 
+            toFade='to-[#d8b378]'
             classP="text-shadow-[1px_1px_0px_#000] text-shadow-white text-black"
             order={5}
             data={data.Characters[4]}
@@ -105,6 +115,8 @@ export default function Home() {
           <CharacterPanel 
             openPanel={openPanelSec}
             classN='bg-[#002e87]'
+            fromFade='from-[#002e87]' 
+            toFade='to-[#002e87]'
             classP="text-shadow-[1px_1px_0px_#000] text-shadow-black text-white"
             order={6}
             data={data.Characters[5]}
@@ -120,6 +132,8 @@ export default function Home() {
           <CharacterPanel 
             openPanel={openPanelSec}
             classN='bg-[#ab3a87]'
+            fromFade='from-[#ab3a87]' 
+            toFade='to-[#ab3a87]'
             classP="text-shadow-[1px_1px_0px_#000] text-shadow-black text-white"
             order={7}
             data={data.Characters[6]}
@@ -135,6 +149,8 @@ export default function Home() {
           <CharacterPanel 
             openPanel={openPanelSec}
             classN='bg-[#902900]'
+            fromFade='from-[#902900]' 
+            toFade='to-[#902900]'
             classP="text-shadow-[1px_1px_0px_#000] text-shadow-black text-white"
             order={8}
             data={data.Characters[7]}
