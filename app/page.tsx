@@ -11,6 +11,14 @@ import charactersData from "@/public/data/data.json";
 export default function Home() {
   const [openPanel, setOpenPanel] = useState<number>(1);
   const [openPanelSec, setOpenPanelSec] = useState<number>(5);
+  const [openPanelThr, setOpenPanelThr] = useState<number>(9);
+
+  const [currPanel, setCurrPanel] = useState({
+    "first": 1,
+    "second": 1,
+    "third": 1,
+  });
+
   const data = charactersData as dataProps;
 
   return (
@@ -154,6 +162,76 @@ export default function Home() {
             classP="text-shadow-[1px_1px_0px_#000] text-shadow-black text-white"
             order={8}
             data={data.Characters[7]}
+          />
+        </div>
+        <div className="flex flex-col lg:flex-row h-screen w-full snap-start bg-black">
+          {/* Panel 1 */}
+          <PanelButton 
+            openPanel={openPanelThr}
+            setOpenPanel={setOpenPanelThr} 
+            index={9} 
+            name={data.Characters[8].name} 
+            classN='bg-[#e2d8c6]'
+          />
+          <CharacterPanel 
+            openPanel={openPanelThr}
+            classN='bg-[#e2d8c6]' 
+            fromFade='from-[#e2d8c6]' 
+            toFade='to-[#e2d8c6]' 
+            classP="text-shadow-[1px_1px_0px_#000] text-shadow-white text-black"
+            order={9}
+            data={data.Characters[8]}
+          />
+          {/* Panel 2 */}
+          <PanelButton 
+            openPanel={openPanelThr}
+            setOpenPanel={setOpenPanelThr} 
+            index={10} 
+            name={data.Characters[9].name} 
+            classN='bg-[#004aa1]'
+          />
+          <CharacterPanel 
+            openPanel={openPanelThr}
+            classN='bg-[#004aa1]' 
+            fromFade='from-[#004aa1]' 
+            toFade='to-[#004aa1]' 
+            classP="text-shadow-[1px_1px_0px_#000] text-shadow-black text-white"
+            order={10}
+            data={data.Characters[9]}
+          />
+          {/* Panel 3 */}
+          <PanelButton 
+            openPanel={openPanelThr}
+            setOpenPanel={setOpenPanelThr} 
+            index={11} 
+            name={data.Characters[10].name} 
+            classN='bg-[#f57ce0]'
+          />
+          <CharacterPanel 
+            openPanel={openPanelThr}
+            classN='bg-[#f57ce0]'
+            fromFade='from-[#f57ce0]' 
+            toFade='to-[#f57ce0]' 
+            classP="text-shadow-[1px_1px_0px_#000] text-shadow-white text-black"
+            order={11}
+            data={data.Characters[10]}
+          />
+          {/* Panel 4 */}
+          <PanelButton 
+            openPanel={openPanelThr}
+            setOpenPanel={setOpenPanelThr} 
+            index={12} 
+            name={data.Characters[11].name} 
+            classN='bg-[#851a36]'
+          />
+          <CharacterPanel 
+            openPanel={openPanelThr}
+            classN='bg-[#851a36]'
+            fromFade='from-#851a36]' 
+            toFade='to-[#851a36]'
+            classP="text-shadow-[1px_1px_0px_#000] text-shadow-black text-white"
+            order={12}
+            data={data.Characters[11]}
           />
         </div>
       </main>

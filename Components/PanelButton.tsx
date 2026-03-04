@@ -15,7 +15,7 @@ export default function PanelButton({ openPanel, setOpenPanel, index, name, clas
                     ${openPanel === index ? 'h-0 w-auto lg:h-auto lg:w-0 lg:px-0' : 'h-10 w-auto lg:h-auto lg:px-4'} transition-all overflow-hidden
                     hover:pt-[15%]`}
         >
-          <span className="hidden lg:block">{index}</span>
+          <span className="hidden lg:block w-7">{index}</span>
           <span className="lg:rotate-90 lg:mt-15 lg:-mx-15">{name}</span>
         </button>
     );
