@@ -11,7 +11,11 @@
                 "Immortality: Wolverine's healing factor has also kept him in the physical prime of a normal man for decades, and he will never age as a result.",
                 "Retractable Bone Claws: Wolverine possesses a pair of retractable razor-sharp claws that he can deploy between his knuckles.",
                 "Adamantium Skeleton: Upon entering the Weapon X program, Wolverine's entire skeletal structure was upgraded with Adamantium; which is a virtually indestructible alloy. Wolverine is capable of taking even more damage when he is on the offensive because of his skeleton."
-            ]
+            ],
+            "color": "bg-[#eccb00]",
+            "fromFade": "from-[#eccb00]",
+            "toFade": "to-[#eccb00]",
+            "textClass": "text-shadow-white text-black"
         },
         {
             "name": "Storm",
@@ -21,7 +25,11 @@
             "pab": [
                 "Storm is a mutant with the ability to control and manipulate the forces of nature. The nature of her powers grant her control over wind, rain, lightning, hurricanes, ice and heat.",
                 "Her precise control over the forces of nature enables her to achieve a wide variety of weather such as making whirlwinds travel pointing lengthwise in any direction, flash freezing objects and people, and summoning wind currents strong enough to support her weight and make her herself and others fly and hover."
-            ]
+            ],
+            "color": "bg-[#084772]",
+            "fromFade": "from-[#084772]",
+            "toFade": "to-[#084772]",
+            "textClass": "text-shadow-black text-white"
         },
         {
             "name": "Rogue",
@@ -31,7 +39,11 @@
             "pab": [
                 "Rogue has the ability to absorb energy from other living beings through physical contact as well as temporarily gain mutant powers and thoughts. However this makes it hard for her to be in contact with anyone unless she has protection such as her gloves.",
                 "After absorbing Ms. Marvel's powers permanently, she gained the power of flight, superhuman strength and invulnerability."
-            ]
+            ],
+            "color": "bg-[#1d4c15]",
+            "fromFade": "from-[#1d4c15]",
+            "toFade": "to-[#1d4c15]",
+            "textClass": "text-shadow-black text-white"
         },
         {
             "name": "Gambit",
@@ -41,7 +53,11 @@
             "pab": [
                 "Gambit has the ability to change objects with explosive charges of kinetic energy that his body produces from non-organic matter. He commonly does this to playing cards since he can easily store them and throw the cards. However, this means he goes through them quickly and is often buying new packs of cards. He can also do this to other objects, such as a brick, but does this less often.",
                 "He also has a extendable metal Bo-staff that he uses for fending off further attacks and is skilled in martial arts. Gambit also regularly exercises and has the skills of a master thief."
-            ]
+            ],
+            "color": "bg-[#ae682d]",
+            "fromFade": "from-[#ae682d]",
+            "toFade": "to-[#ae682d]",
+            "textClass": "text-shadow-black text-white"
         },
         {
             "name": "Professor X",
@@ -50,7 +66,11 @@
             "disPer": "He is a scientific genius and a leading authority in genetics, who strives to serve the greater good by promoting peaceful coexistence and equality between humans and mutants. His pacifist and assimilationist ideology often contrasts with that of Magneto, a mutant leader with whom he has a complicated relationship. Xavier's character is deeply affected by his telepathic powers, which he uses to alleviate others' pain and protect mutants from persecution. Despite his efforts, Xavier's dream of mutant-human coexistence is often challenged by the political and ideological divide within the mutant community.",
             "pab": [
                 "Xavier has strong telepathic abilities which allow him to read minds, project thoughts, show memories, enter the astral plane, project mental bolts, create mental shields, etc. Physically, he is just a human in a wheelchair/hoverchair, however he is an excellent tactician and strategist."
-            ]
+            ],
+            "color": "bg-[#d8b378]",
+            "fromFade": "from-[#d8b378]",
+            "toFade": "to-[#d8b378]",
+            "textClass": "text-shadow-white text-black"
         },
         {
             "name": "Cyclops",
@@ -59,7 +79,11 @@
             "disPer": "Scott takes his position on the X-Men very seriously, which sometimes gets him into a few conflicts with Wolverine who does not always obey his orders. He tends to be stoic, a bit uptight, and believes in doing things by the book. He has an aura of authority and compassion and is very charismatic, and extremely skilled at making decisions under pressure. Additionally, he seems to view Beast as a brother-figure and seems to love Jubilee, Rogue and Storm like sisters, hinting that he regards all the X-Men as family.",
             "pab": [
                 "Optic Energy Blasts: Cyclops can absorb solar energy for discharge and use it as concussive beams to fire from his eyes with superb accuracy. Unfortunately he is unable to control his power at will and has to wear special material to contain his beams such as his visor or glasses with ruby quartz lenses, hence his name"
-            ]
+            ],
+            "color": "bg-[#002e87]",
+            "fromFade": "from-[#002e87]",
+            "toFade": "to-[#002e87]",
+            "textClass": "text-shadow-black text-white"
         },
         {
             "name": "Jubilee",
@@ -69,7 +93,11 @@
             "pab": [
                 "Pyrotechnic energy plasmoids generation/manipulation: As a mutant, Jubilee has the power to generate pyrotechnic energy plasmoids from her hands. The plasmoids obey her mental control, traveling where she directs them, arranging themselves in various shapes, and exploding when she wishes. The strength of the blasts varied in degrees of power and intensity, and can range from a multitude of colorful sparkles capable of temporarily blinding a person, to a powerful detonation capable of smashing objects and destroying property, or a precision burst inside a human brain, simulating the effects of a massive stroke. Jubilee can also absorb the energy back into her own body without harm.",
                 "Lockpicking: Jubilee learnt how to pick locks from a girl at her former orphanage."
-            ]
+            ],
+            "color": "bg-[#ab3a87]",
+            "fromFade": "from-[#ab3a87]",
+            "toFade": "to-[#ab3a87]",
+            "textClass": "text-shadow-black text-white"
         },
         {
             "name": "Jean Grey",
@@ -79,7 +107,11 @@
             "pab": [
                 "Telepathy: As a telepath, Jean can detect and read the thoghts of others, project her own thoughts into other's minds, form psychic links with other beings, control others' minds so as to manipulate their physical functions, mentally stun opponents with bolts of pure psionic force, cast near-flawless mental illusions, and project her mind and the minds of others onto the astral plane.",
                 "Telekinesis: Jean possesses a high-level of telekinetic ability that enables her to psionically levitate and rapidly move about all manner of animate and inanimate matter. She can use her telekinetic abilities on herself or others to simulate the power of flight or levitation, stimulate molecules to increase friction, create protective force fields out of psychokinetic energy, or project her telekinetic energy as purely concussive force."
-            ]
+            ],
+            "color": "bg-[#902900]",
+            "fromFade": "from-[#902900]",
+            "toFade": "to-[#902900]",
+            "textClass": "text-shadow-black text-white"
         },
         {
             "name": "Morph",
@@ -94,7 +126,11 @@
                 "Winged Flight: Morph has mimicked the form of Angel, allowing them to fly.",
                 "Superhuman Speed: When fighting Bolivar Trask, Morph transformed into Quicksilver and used his superhuman speed to race to Bolivar and deliver multiple punches.",
                 "Elasticity: Morph shifted into the Blob to use his elasticity for Wolverine to bounce off of him, allowing him to reach incredible heights to slice off the head of Master Mold."
-            ]
+            ],
+            "color": "bg-[#e2d8c6]",
+            "fromFade": "from-[#e2d8c6]",
+            "toFade": "to-[#e2d8c6]",
+            "textClass": "text-shadow-white text-black"
         },
         {
             "name": "Beast",
@@ -110,7 +146,11 @@
                 "Superhuman Reflexes: Beast's reflexes are similarly enhanced and are on levels beyond the natural physical limits of the finest human athlete. His training with the X-Men, as well as his experience battling enemies, has granted him the reaction time to evade gunfire. He can react at low-level superhuman speeds, even catching smaller missile mid-air with his feet. His reflexes are a partial reason why the Beast is able to be so agile and fast, despite the abnormal bulk of his ape-like form.",
                 "Superhuman Dexterity: He can perform many tasks with his feet as easily as a human could do with his hands. His manual and pedal dexterity are so great that he can write using both hands at once or tie knots in rope with his toes.",
                 "Regenerative Healing Factor: Beast's metabolism enables him to repair mild to moderate injuries much faster than a normal human. For instance, he can recover from minor ailments, such as a severe cold or fever within a few hours. More severe injuries, like broken bones, used to heal within a few days, whereas normal humans might take many weeks or even months. However, his healing abilities have increased to the point where he recovers from mild to moderate injuries within the span of a few hours. However, he cannot regenerate destroyed organs or severed limbs."
-            ]
+            ],
+            "color": "bg-[#004aa1]",
+            "fromFade": "from-[#004aa1]",
+            "toFade": "to-[#004aa1]",
+            "textClass": "text-shadow-black text-white"
         },
         {
             "name": "Bishop",
@@ -121,7 +161,11 @@
                 "Energy Metabolization: Bishop can also choose to store absorbed energy within his personal reserves, whereupon the energy increases his strength, speed, stamina and recuperative abilities, as well as affording him a measure of invulnerability. The upper limits of his ability to enhance his own physical abilities with absorbed energy, similar to Sebastian Shaw and Agent Zero, is not exactly known, but is well into the level of being superhuman.",
                 "Regeneration: Bishop can heal at a faster rate than an average human; Bishop's regenerative factor increases proportionally to the amount of energy he absorbs, reaching superhuman limits. He is unable to regenerate limbs.",
                 "Invulnerability: Lately he has demonstrated the ability to absorb most of the energy from the attacks that are launched, regardless of type, making him almost invulnerable to all attacks. His power famously allowed him, at its height, to absorb a psionic blast from Onslaught that would've annihilated the X-Men. On a similar note, Biship took and returned back a blast two-fold from the powerful mutant Mr. M."
-            ]
+            ],
+            "color": "bg-[#f57ce0]",
+            "fromFade": "from-[#f57ce0]",
+            "toFade": "to-[#f57ce0]",
+            "textClass": "text-shadow-white text-black"
         },
         {
             "name": "Nightcrawler",
@@ -134,7 +178,11 @@
                 "Superhuman Agility: Nightcrawler's agility, balance, and bodily coordination are enhanced to levels beyond the human body's natural limits.",
                 "Superhuman Reflexes: Nightcrawler's natural reaction time is enhanced to a level beyond the human body's natural limits.",
                 "Fencing: Kurt is a skilled swordsman. He can fight with three swords at once, using both of his hands and tail."
-            ]
+            ],
+            "color": "bg-[#851a36]",
+            "fromFade": "from-[#851a36]",
+            "toFade": "to-[#851a36]",
+            "textClass": "text-shadow-black text-white"
         }
     ]
 }

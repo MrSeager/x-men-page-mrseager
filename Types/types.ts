@@ -5,6 +5,10 @@ export interface CharactersData {
   disPer: string; 
   disPhs: string; 
   pab: string[];
+  color: string;
+  fromFade: string;
+  toFade: string;
+  textClass: string;
 }
 
 export interface dataProps{
@@ -20,3 +24,5 @@ export interface CharacterPanelProps {
     order: number;
     data: CharactersData;
 }
+
+export type PanelState = Record<string, number>;

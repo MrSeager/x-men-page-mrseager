@@ -9,14 +9,14 @@ export default function CharacterPanel({ openPanel, classN, fromFade, toFade, cl
             className={`
                 ${openPanel === order ? "h-full w-screen lg:h-auto lg:w-full" : "h-0 lg:h-auto lg:w-0"}
                 flex flex-col items-center gap-3 scroll-smooth
-                bg-transparent
                 overflow-y-auto cs-scroll
                 transition-all duration-500
-                relative
+                relative font-bangers
+                ${classN}
             `}
         >
             <div className={`absolute top-0 left-0 right-0 h-10 bg-gradient-to-b ${fromFade} to-transparent z-20`} />
-            <div className={`${classN} py-5 flex flex-col gap-5 items-center overflow-y-auto h-full w-full cs-scroll`}>
+            <div className={`py-5 flex flex-col gap-5 items-center overflow-y-auto h-full w-full lg:w-[80rem] cs-scroll`}>
                 <h1 className="text-[75px] text-white text-shadow-[3px_3px_0px_#000] text-shadow-black">{data.name}</h1>
                 <Image 
                     src={`/images/${data.image}`}
@@ -26,13 +26,13 @@ export default function CharacterPanel({ openPanel, classN, fromFade, toFade, cl
                     className="saturate-150 contrast-125 border-[6px] border-white shadow-[16px_16px_0px_#000]"
                 />
                 <h2 className="text-center text-[40px] text-white text-shadow-[3px_3px_0px_#000] text-shadow-black">Discription</h2>
-                <p className={`${classP} font-comic font-bold w-[90%] md:w-[75%] whitespace-pre-line indent-8`}>{data.dis}</p>
+                <p className={`${classP} text-shadow-[1px_1px_0px_#000] font-comic font-bold w-[90%] md:w-[75%] whitespace-pre-line indent-8`}>{data.dis}</p>
                 <h2 className="text-center text-[40px] text-white text-shadow-[3px_3px_0px_#000] text-shadow-black">Personality</h2>
-                <p className={`${classP} font-comic font-bold w-[90%] md:w-[75%] whitespace-pre-line indent-8`}>{data.disPer}</p>
+                <p className={`${classP} text-shadow-[1px_1px_0px_#000] font-comic font-bold w-[90%] md:w-[75%] whitespace-pre-line indent-8`}>{data.disPer}</p>
                 <h2 className="text-center text-[40px] text-white text-shadow-[3px_3px_0px_#000] text-shadow-black">Powers and abilities</h2>
                 <ul className="w-[90%] md:w-[75%] list-disc pl-6 space-y-2">
                     {data.pab.map((item, index) => (
-                    <li key={index} className={`${classP} font-comic font-bold leading-relaxed`}>
+                    <li key={index} className={`${classP} text-shadow-[1px_1px_0px_#000] font-comic font-bold leading-relaxed`}>
                         {item}
                     </li>
                     ))}
