@@ -30,7 +30,7 @@ export default function CharacterPanel({ openPanel, classN, fromFade, toFade, cl
                 <h2 className="text-center text-[40px] text-white text-shadow-[3px_3px_0px_#000] text-shadow-black">Personality</h2>
                 <p className={`${classP} text-shadow-[1px_1px_0px_#000] font-comic font-bold w-[90%] md:w-[75%] whitespace-pre-line indent-8`}>{data.disPer}</p>
                 <h2 className="text-center text-[40px] text-white text-shadow-[3px_3px_0px_#000] text-shadow-black">Powers and abilities</h2>
-                <ul className="w-[90%] md:w-[75%] list-disc pl-6 space-y-2">
+                <ul className="w-[90%] md:w-[75%] list-disc pl-6 pb-10 space-y-2 ">
                     {data.pab.map((item, index) => (
                     <li key={index} className={`${classP} text-shadow-[1px_1px_0px_#000] font-comic font-bold leading-relaxed`}>
                         {item}
