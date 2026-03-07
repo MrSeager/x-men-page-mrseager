@@ -72,11 +72,11 @@ export default function Home() {
               })}
             </div>
           ))}
-        <div className="absolute pointer-events-none bottom-5 left-1/2 -translate-x-1/2 flex gap-2">
+        <div className="absolute bg-black/25 z-200 px-2 pt-2 pb-1 lg:py-1 rounded rounded-[50px] pointer-events-none bottom-1/2 left-7 lg:bottom-5 lg:left-1/2 -translate-x-1/2 flex flex-col lg:flex-row gap-2">
           {[0, 1, 2].map(i => (
             <span
               key={i}
-              className={`transition-all font-bold text-white text-shadow-2xs text-shadow-[3px_3px_0px_#000] duration-500 ${
+              className={`text-base/5 transition-all font-bold text-white duration-500 ${
                 activeSection === i ? "scale-150 opacity-100" : "scale-100 opacity-40"
               }`}
             >
